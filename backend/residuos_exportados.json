@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "nombre": "Residuo desde archivo",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-02T21:44:30.223Z",
+    "updatedAt": "2025-06-02T21:44:30.223Z"
+  },
+  {
+    "id": 2,
+    "nombre": "Residuo desde archivo",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-02T21:44:43.092Z",
+    "updatedAt": "2025-06-02T21:44:43.092Z"
+  },
+  {
+    "id": 3,
+    "nombre": "Residuo desde archivo",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-02T21:56:18.536Z",
+    "updatedAt": "2025-06-02T21:56:18.536Z"
+  },
+  {
+    "id": 4,
+    "nombre": "Residuo desde archivo",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-02T21:58:34.755Z",
+    "updatedAt": "2025-06-02T21:58:34.755Z"
+  },
+  {
+    "id": 5,
+    "nombre": "Residuo desde cámara",
+    "tipo": "No reciclable",
+    "createdAt": "2025-06-03T22:57:08.761Z",
+    "updatedAt": "2025-06-03T22:57:08.761Z"
+  },
+  {
+    "id": 6,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Reciclable",
+    "createdAt": "2025-06-03T22:57:16.730Z",
+    "updatedAt": "2025-06-03T22:57:16.730Z"
+  },
+  {
+    "id": 7,
+    "nombre": "Residuo desde archivo",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T00:16:46.442Z",
+    "updatedAt": "2025-06-04T00:16:46.442Z"
+  },
+  {
+    "id": 8,
+    "nombre": "Residuo desde archivo",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T00:18:32.839Z",
+    "updatedAt": "2025-06-04T00:18:32.839Z"
+  },
+  {
+    "id": 9,
+    "nombre": "Residuo desde archivo",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T00:18:44.976Z",
+    "updatedAt": "2025-06-04T00:18:44.976Z"
+  },
+  {
+    "id": 10,
+    "nombre": "Residuo desde cámara",
+    "tipo": "No reciclable",
+    "createdAt": "2025-06-04T00:56:47.846Z",
+    "updatedAt": "2025-06-04T00:56:47.846Z"
+  },
+  {
+    "id": 11,
+    "nombre": "Residuo desde cámara",
+    "tipo": "No reciclable",
+    "createdAt": "2025-06-04T00:56:57.514Z",
+    "updatedAt": "2025-06-04T00:56:57.514Z"
+  },
+  {
+    "id": 12,
+    "nombre": "Residuo desde cámara",
+    "tipo": "No reciclable",
+    "createdAt": "2025-06-04T00:56:58.621Z",
+    "updatedAt": "2025-06-04T00:56:58.621Z"
+  },
+  {
+    "id": 13,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Reciclable",
+    "createdAt": "2025-06-04T00:57:00.195Z",
+    "updatedAt": "2025-06-04T00:57:00.195Z"
+  },
+  {
+    "id": 14,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Reciclable",
+    "createdAt": "2025-06-04T00:57:00.860Z",
+    "updatedAt": "2025-06-04T00:57:00.860Z"
+  },
+  {
+    "id": 15,
+    "nombre": "Residuo desde cámara",
+    "tipo": "No reciclable",
+    "createdAt": "2025-06-04T00:57:01.948Z",
+    "updatedAt": "2025-06-04T00:57:01.948Z"
+  },
+  {
+    "id": 16,
+    "nombre": "Residuo desde cámara",
+    "tipo": "No reciclable",
+    "createdAt": "2025-06-04T00:57:02.478Z",
+    "updatedAt": "2025-06-04T00:57:02.478Z"
+  },
+  {
+    "id": 17,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Reciclable",
+    "createdAt": "2025-06-04T00:57:03.809Z",
+    "updatedAt": "2025-06-04T00:57:03.809Z"
+  },
+  {
+    "id": 18,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Reciclable",
+    "createdAt": "2025-06-04T00:57:04.313Z",
+    "updatedAt": "2025-06-04T00:57:04.313Z"
+  },
+  {
+    "id": 19,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Reciclable",
+    "createdAt": "2025-06-04T00:57:04.756Z",
+    "updatedAt": "2025-06-04T00:57:04.756Z"
+  },
+  {
+    "id": 20,
+    "nombre": "Residuo desde cámara",
+    "tipo": "No reciclable",
+    "createdAt": "2025-06-04T00:57:05.628Z",
+    "updatedAt": "2025-06-04T00:57:05.628Z"
+  },
+  {
+    "id": 21,
+    "nombre": "Residuo desde cámara",
+    "tipo": "No reciclable",
+    "createdAt": "2025-06-04T00:57:06.039Z",
+    "updatedAt": "2025-06-04T00:57:06.039Z"
+  },
+  {
+    "id": 22,
+    "nombre": "Residuo desde cámara",
+    "tipo": "No reciclable",
+    "createdAt": "2025-06-04T00:57:06.451Z",
+    "updatedAt": "2025-06-04T00:57:06.451Z"
+  },
+  {
+    "id": 23,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T00:58:40.009Z",
+    "updatedAt": "2025-06-04T00:58:40.009Z"
+  },
+  {
+    "id": 24,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T00:58:40.792Z",
+    "updatedAt": "2025-06-04T00:58:40.792Z"
+  },
+  {
+    "id": 25,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T00:58:41.295Z",
+    "updatedAt": "2025-06-04T00:58:41.295Z"
+  },
+  {
+    "id": 26,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T00:58:41.493Z",
+    "updatedAt": "2025-06-04T00:58:41.493Z"
+  },
+  {
+    "id": 27,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T00:58:41.681Z",
+    "updatedAt": "2025-06-04T00:58:41.681Z"
+  },
+  {
+    "id": 28,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T00:58:41.850Z",
+    "updatedAt": "2025-06-04T00:58:41.850Z"
+  },
+  {
+    "id": 29,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T00:58:42.053Z",
+    "updatedAt": "2025-06-04T00:58:42.053Z"
+  },
+  {
+    "id": 30,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T00:58:42.263Z",
+    "updatedAt": "2025-06-04T00:58:42.263Z"
+  },
+  {
+    "id": 31,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T00:58:42.427Z",
+    "updatedAt": "2025-06-04T00:58:42.427Z"
+  },
+  {
+    "id": 32,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T00:58:42.617Z",
+    "updatedAt": "2025-06-04T00:58:42.617Z"
+  },
+  {
+    "id": 33,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T00:58:42.775Z",
+    "updatedAt": "2025-06-04T00:58:42.775Z"
+  },
+  {
+    "id": 34,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T00:58:42.975Z",
+    "updatedAt": "2025-06-04T00:58:42.975Z"
+  },
+  {
+    "id": 35,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T00:58:43.236Z",
+    "updatedAt": "2025-06-04T00:58:43.236Z"
+  },
+  {
+    "id": 36,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T00:58:43.414Z",
+    "updatedAt": "2025-06-04T00:58:43.414Z"
+  },
+  {
+    "id": 37,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T00:58:43.561Z",
+    "updatedAt": "2025-06-04T00:58:43.561Z"
+  },
+  {
+    "id": 38,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T00:58:44.381Z",
+    "updatedAt": "2025-06-04T00:58:44.381Z"
+  },
+  {
+    "id": 39,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Reciclable",
+    "createdAt": "2025-06-04T00:58:49.866Z",
+    "updatedAt": "2025-06-04T00:58:49.866Z"
+  },
+  {
+    "id": 40,
+    "nombre": "Residuo desde cámara",
+    "tipo": "No reciclable",
+    "createdAt": "2025-06-04T00:58:51.200Z",
+    "updatedAt": "2025-06-04T00:58:51.200Z"
+  },
+  {
+    "id": 41,
+    "nombre": "Residuo desde archivo",
+    "tipo": "No reciclable",
+    "createdAt": "2025-06-04T01:02:06.572Z",
+    "updatedAt": "2025-06-04T01:02:06.572Z"
+  },
+  {
+    "id": 42,
+    "nombre": "Residuo desde archivo",
+    "tipo": "Reciclable",
+    "createdAt": "2025-06-04T01:02:14.438Z",
+    "updatedAt": "2025-06-04T01:02:14.438Z"
+  },
+  {
+    "id": 43,
+    "nombre": "Residuo desde archivo",
+    "tipo": "No reciclable",
+    "createdAt": "2025-06-04T01:02:18.120Z",
+    "updatedAt": "2025-06-04T01:02:18.120Z"
+  },
+  {
+    "id": 44,
+    "nombre": "Residuo desde archivo",
+    "tipo": "Reciclable",
+    "createdAt": "2025-06-04T01:02:21.942Z",
+    "updatedAt": "2025-06-04T01:02:21.942Z"
+  },
+  {
+    "id": 45,
+    "nombre": "Residuo desde archivo",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T01:02:25.262Z",
+    "updatedAt": "2025-06-04T01:02:25.262Z"
+  },
+  {
+    "id": 46,
+    "nombre": "Residuo desde archivo",
+    "tipo": "Reciclable",
+    "createdAt": "2025-06-04T01:02:28.291Z",
+    "updatedAt": "2025-06-04T01:02:28.291Z"
+  },
+  {
+    "id": 47,
+    "nombre": "Residuo desde archivo",
+    "tipo": "No reciclable",
+    "createdAt": "2025-06-04T01:02:31.206Z",
+    "updatedAt": "2025-06-04T01:02:31.206Z"
+  },
+  {
+    "id": 48,
+    "nombre": "Residuo desde archivo",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T01:02:33.771Z",
+    "updatedAt": "2025-06-04T01:02:33.771Z"
+  },
+  {
+    "id": 49,
+    "nombre": "Residuo desde archivo",
+    "tipo": "No reciclable",
+    "createdAt": "2025-06-04T01:02:36.089Z",
+    "updatedAt": "2025-06-04T01:02:36.089Z"
+  },
+  {
+    "id": 50,
+    "nombre": "Residuo desde archivo",
+    "tipo": "Reciclable",
+    "createdAt": "2025-06-04T01:02:39.201Z",
+    "updatedAt": "2025-06-04T01:02:39.201Z"
+  },
+  {
+    "id": 51,
+    "nombre": "Residuo desde archivo",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T01:02:42.589Z",
+    "updatedAt": "2025-06-04T01:02:42.589Z"
+  },
+  {
+    "id": 52,
+    "nombre": "Residuo desde archivo",
+    "tipo": "No reciclable",
+    "createdAt": "2025-06-04T01:02:45.257Z",
+    "updatedAt": "2025-06-04T01:02:45.257Z"
+  },
+  {
+    "id": 53,
+    "nombre": "Residuo desde archivo",
+    "tipo": "Reciclable",
+    "createdAt": "2025-06-04T01:02:47.808Z",
+    "updatedAt": "2025-06-04T01:02:47.808Z"
+  },
+  {
+    "id": 54,
+    "nombre": "Residuo desde cámara",
+    "tipo": "No reciclable",
+    "createdAt": "2025-06-04T01:07:32.844Z",
+    "updatedAt": "2025-06-04T01:07:32.844Z"
+  },
+  {
+    "id": 55,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T01:07:36.317Z",
+    "updatedAt": "2025-06-04T01:07:36.317Z"
+  },
+  {
+    "id": 56,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T01:07:36.516Z",
+    "updatedAt": "2025-06-04T01:07:36.516Z"
+  },
+  {
+    "id": 57,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T01:07:36.685Z",
+    "updatedAt": "2025-06-04T01:07:36.685Z"
+  },
+  {
+    "id": 58,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T01:07:36.859Z",
+    "updatedAt": "2025-06-04T01:07:36.859Z"
+  },
+  {
+    "id": 59,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T01:07:37.074Z",
+    "updatedAt": "2025-06-04T01:07:37.074Z"
+  },
+  {
+    "id": 60,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T01:07:37.212Z",
+    "updatedAt": "2025-06-04T01:07:37.212Z"
+  },
+  {
+    "id": 61,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T01:07:37.460Z",
+    "updatedAt": "2025-06-04T01:07:37.460Z"
+  },
+  {
+    "id": 62,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T01:07:37.595Z",
+    "updatedAt": "2025-06-04T01:07:37.595Z"
+  },
+  {
+    "id": 63,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T01:07:37.882Z",
+    "updatedAt": "2025-06-04T01:07:37.882Z"
+  },
+  {
+    "id": 64,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T01:07:37.982Z",
+    "updatedAt": "2025-06-04T01:07:37.982Z"
+  },
+  {
+    "id": 65,
+    "nombre": "Residuo desde cámara",
+    "tipo": "No reciclable",
+    "createdAt": "2025-06-04T01:07:39.319Z",
+    "updatedAt": "2025-06-04T01:07:39.319Z"
+  },
+  {
+    "id": 66,
+    "nombre": "Residuo desde cámara",
+    "tipo": "No reciclable",
+    "createdAt": "2025-06-04T01:07:39.470Z",
+    "updatedAt": "2025-06-04T01:07:39.470Z"
+  },
+  {
+    "id": 67,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Reciclable",
+    "createdAt": "2025-06-04T01:07:40.619Z",
+    "updatedAt": "2025-06-04T01:07:40.619Z"
+  },
+  {
+    "id": 68,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Reciclable",
+    "createdAt": "2025-06-04T01:07:40.774Z",
+    "updatedAt": "2025-06-04T01:07:40.774Z"
+  },
+  {
+    "id": 69,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Reciclable",
+    "createdAt": "2025-06-04T01:07:40.937Z",
+    "updatedAt": "2025-06-04T01:07:40.937Z"
+  },
+  {
+    "id": 70,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Reciclable",
+    "createdAt": "2025-06-04T01:07:41.164Z",
+    "updatedAt": "2025-06-04T01:07:41.164Z"
+  },
+  {
+    "id": 71,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Reciclable",
+    "createdAt": "2025-06-04T01:07:41.287Z",
+    "updatedAt": "2025-06-04T01:07:41.287Z"
+  },
+  {
+    "id": 72,
+    "nombre": "Residuo desde cámara",
+    "tipo": "No reciclable",
+    "createdAt": "2025-06-04T01:07:43.852Z",
+    "updatedAt": "2025-06-04T01:07:43.852Z"
+  },
+  {
+    "id": 73,
+    "nombre": "Residuo desde cámara",
+    "tipo": "No reciclable",
+    "createdAt": "2025-06-04T01:07:44.119Z",
+    "updatedAt": "2025-06-04T01:07:44.119Z"
+  },
+  {
+    "id": 74,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Reciclable",
+    "createdAt": "2025-06-04T01:07:44.991Z",
+    "updatedAt": "2025-06-04T01:07:44.991Z"
+  },
+  {
+    "id": 75,
+    "nombre": "Residuo desde cámara",
+    "tipo": "No reciclable",
+    "createdAt": "2025-06-04T01:07:45.148Z",
+    "updatedAt": "2025-06-04T01:07:45.148Z"
+  },
+  {
+    "id": 76,
+    "nombre": "Residuo desde cámara",
+    "tipo": "No reciclable",
+    "createdAt": "2025-06-04T01:07:45.286Z",
+    "updatedAt": "2025-06-04T01:07:45.286Z"
+  },
+  {
+    "id": 77,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Reciclable",
+    "createdAt": "2025-06-04T01:07:46.733Z",
+    "updatedAt": "2025-06-04T01:07:46.733Z"
+  },
+  {
+    "id": 78,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Reciclable",
+    "createdAt": "2025-06-04T01:07:53.449Z",
+    "updatedAt": "2025-06-04T01:07:53.449Z"
+  },
+  {
+    "id": 79,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Reciclable",
+    "createdAt": "2025-06-04T01:07:53.726Z",
+    "updatedAt": "2025-06-04T01:07:53.726Z"
+  },
+  {
+    "id": 80,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Reciclable",
+    "createdAt": "2025-06-04T01:07:53.861Z",
+    "updatedAt": "2025-06-04T01:07:53.861Z"
+  },
+  {
+    "id": 81,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T01:08:11.384Z",
+    "updatedAt": "2025-06-04T01:08:11.384Z"
+  },
+  {
+    "id": 82,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T01:08:11.545Z",
+    "updatedAt": "2025-06-04T01:08:11.545Z"
+  },
+  {
+    "id": 83,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T01:08:11.687Z",
+    "updatedAt": "2025-06-04T01:08:11.687Z"
+  },
+  {
+    "id": 84,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T01:08:11.880Z",
+    "updatedAt": "2025-06-04T01:08:11.880Z"
+  },
+  {
+    "id": 85,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Orgánico",
+    "createdAt": "2025-06-04T01:08:12.191Z",
+    "updatedAt": "2025-06-04T01:08:12.191Z"
+  },
+  {
+    "id": 86,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Reciclable",
+    "createdAt": "2025-06-04T01:08:15.089Z",
+    "updatedAt": "2025-06-04T01:08:15.089Z"
+  },
+  {
+    "id": 87,
+    "nombre": "Residuo desde cámara",
+    "tipo": "No reciclable",
+    "createdAt": "2025-06-04T01:08:15.345Z",
+    "updatedAt": "2025-06-04T01:08:15.345Z"
+  },
+  {
+    "id": 88,
+    "nombre": "Residuo desde cámara",
+    "tipo": "No reciclable",
+    "createdAt": "2025-06-04T01:08:15.504Z",
+    "updatedAt": "2025-06-04T01:08:15.504Z"
+  },
+  {
+    "id": 89,
+    "nombre": "Residuo desde cámara",
+    "tipo": "No reciclable",
+    "createdAt": "2025-06-04T01:08:15.622Z",
+    "updatedAt": "2025-06-04T01:08:15.622Z"
+  },
+  {
+    "id": 90,
+    "nombre": "Residuo desde cámara",
+    "tipo": "No reciclable",
+    "createdAt": "2025-06-04T01:08:15.851Z",
+    "updatedAt": "2025-06-04T01:08:15.851Z"
+  },
+  {
+    "id": 91,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Reciclable",
+    "createdAt": "2025-06-04T01:08:17.573Z",
+    "updatedAt": "2025-06-04T01:08:17.573Z"
+  },
+  {
+    "id": 92,
+    "nombre": "Residuo desde cámara",
+    "tipo": "No reciclable",
+    "createdAt": "2025-06-04T01:08:17.729Z",
+    "updatedAt": "2025-06-04T01:08:17.729Z"
+  },
+  {
+    "id": 93,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Reciclable",
+    "createdAt": "2025-06-04T01:08:17.929Z",
+    "updatedAt": "2025-06-04T01:08:17.929Z"
+  },
+  {
+    "id": 94,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Reciclable",
+    "createdAt": "2025-06-04T01:08:18.060Z",
+    "updatedAt": "2025-06-04T01:08:18.060Z"
+  },
+  {
+    "id": 95,
+    "nombre": "Residuo desde cámara",
+    "tipo": "No reciclable",
+    "createdAt": "2025-06-04T01:08:18.378Z",
+    "updatedAt": "2025-06-04T01:08:18.378Z"
+  },
+  {
+    "id": 96,
+    "nombre": "Residuo desde cámara",
+    "tipo": "No reciclable",
+    "createdAt": "2025-06-04T01:08:18.514Z",
+    "updatedAt": "2025-06-04T01:08:18.514Z"
+  },
+  {
+    "id": 97,
+    "nombre": "Residuo desde cámara",
+    "tipo": "No reciclable",
+    "createdAt": "2025-06-04T01:08:19.016Z",
+    "updatedAt": "2025-06-04T01:08:19.016Z"
+  },
+  {
+    "id": 98,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Reciclable",
+    "createdAt": "2025-06-04T01:08:20.178Z",
+    "updatedAt": "2025-06-04T01:08:20.178Z"
+  },
+  {
+    "id": 99,
+    "nombre": "Residuo desde cámara",
+    "tipo": "No reciclable",
+    "createdAt": "2025-06-04T01:08:36.007Z",
+    "updatedAt": "2025-06-04T01:08:36.007Z"
+  },
+  {
+    "id": 100,
+    "nombre": "Residuo desde cámara",
+    "tipo": "Reciclable",
+    "createdAt": "2025-06-04T01:08:38.080Z",
+    "updatedAt": "2025-06-04T01:08:38.080Z"
+  }
+]

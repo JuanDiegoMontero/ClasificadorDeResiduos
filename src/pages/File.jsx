@@ -128,7 +128,7 @@ function App() {
 
                 {isModelLoading && <p className="text-muted">Cargando modelo...</p>}
 
-                <div id="label-container" className="text-center mb-3"></div>
+                <div id="label-container" className="text-center"></div>
 
                 <Link to="/" className="btn btn-secondary mt-4">🏠 Volver al Inicio</Link>
             </div>
