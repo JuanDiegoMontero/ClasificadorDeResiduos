@@ -91,35 +91,48 @@ function App() {
 
     return (
         <>
-            <p className="display-1 fw-bold text-primary text-center">
-                Clasificador de Residuos con Inteligencia Artificial Para Hogares
-            </p>
+            <div className="d-flex flex-column justify-content-center align-items-center min-vh-100 text-center px-3">
+            <div className="container">
+                <h1 className="display-4 fw-bold text-primary mb-3">
+                    Clasificador de Residuos
+                </h1>
+                <h2 className="h5 text-secondary mb-4">
+                    con Inteligencia Artificial para Hogares
+                </h2>
 
-            <div className="container d-flex flex-column align-items-center justify-content-center vh-50">
-                <h1 className="display-4 text-center mb-4">Sube una imagen para clasificar</h1>
+                <p className="lead text-muted mb-4">
+                    Sube una imagen del residuo para clasificarlo automáticamente.
+                </p>
 
-                <input 
-                    type="file" 
-                    accept="image/*" 
-                    onChange={handleImageUpload} 
-                    className="btn btn-primary mb-4"
-                    disabled={isModelLoading}
-                />
+                <label className="btn btn-success btn-lg mb-4">
+                    📁 Seleccionar Imagen
+                    <input 
+                        type="file" 
+                        accept="image/*" 
+                        onChange={handleImageUpload} 
+                        hidden 
+                        disabled={isModelLoading}
+                    />
+                </label>
 
                 {uploadedImage && (
-                    <img 
-                        src={uploadedImage} 
-                        alt="Imagen subida" 
-                        className="img-fluid rounded mb-3"
-                        style={{ maxWidth: '100%', height: 'auto' }}
-                    />
+                    <div className="mb-4">
+                        <img 
+                            src={uploadedImage} 
+                            alt="Imagen subida" 
+                            className="img-fluid rounded shadow"
+                            style={{ maxHeight: '300px', objectFit: 'contain' }}
+                        />
+                    </div>
                 )}
 
-                {isModelLoading && <p>Cargando modelo...</p>}
+                {isModelLoading && <p className="text-muted">Cargando modelo...</p>}
 
-                <div id="label-container" className="text-center"></div>
-                <Link to="/" className="btn btn-secondary mx-2 mt-4">Volver al Inicio</Link>
+                <div id="label-container" className="text-center mb-3"></div>
+
+                <Link to="/" className="btn btn-secondary mt-4">🏠 Volver al Inicio</Link>
             </div>
+        </div>
         </>
     );
 }

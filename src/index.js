@@ -8,6 +8,8 @@ import Camera from './pages/Camera';
 import Landing from './pages/Landing';
 import File from './pages/File';
 
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>

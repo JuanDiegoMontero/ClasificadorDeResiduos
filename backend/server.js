@@ -1,13 +1,15 @@
 const express = require('express');
 const cors = require('cors');
 const app = express();
-const db = require('./database');
-const routes = require('./routes');
+const db = require('./config/database');
+const rutasResiduos = require('./routes/residuo.routes');
 
 app.use(cors());
 app.use(express.json());
 
-app.use('/api', routes);
+db.sync();
+
+app.use('/api', rutasResiduos);
 
 const PORT = 5000;
 app.listen(PORT, () => {

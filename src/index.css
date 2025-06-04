@@ -1,0 +1,10 @@
+body {
+  background-image: url("/public/fondo.png");
+  background-repeat: repeat;
+  background-size: 200px auto; /* Ajusta el tamaño a gusto */
+}
+.background-overlay {
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco translúcido */
+  padding: 2rem;
+  border-radius: 1rem;
+}

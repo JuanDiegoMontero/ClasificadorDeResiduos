@@ -94,52 +94,61 @@ function CameraPage() {
 
     return (
         <>
-            <p className="display-1 fw-bold text-primary text-center">Clasificador de Residuos con Inteligencia Artificial Para Hogares</p>
-            <div className="d-flex flex-column justify-content-center align-items-center vh-50">
-                <h1 className="display-4 text-center mb-4">Coloca el residuo frente a la cámara para clasificar</h1>
+            <div className="d-flex flex-column justify-content-center align-items-center min-vh-100 text-center px-3">
+            <div className="container">
+                <h1 className="display-4 fw-bold text-primary mb-3">
+                    Clasificador de Residuos
+                </h1>
+                <h2 className="h5 text-secondary mb-4">
+                    con Inteligencia Artificial para Hogares
+                </h2>
+
+                <p className="lead text-muted mb-4">
+                    Coloca el residuo frente a la cámara para clasificar.
+                </p>
+
                 <button
                     type="button"
                     onClick={initWebcam}
-                    className="btn btn-primary btn-lg mb-4"
+                    className="btn btn-success btn-lg mb-4"
                     disabled={isModelLoading || webcam !== null}
                 >
-                    Encender Cámara
+                    📷 Encender Cámara
                 </button>
 
-                {isModelLoading && <p>Cargando modelo...</p>}
-                <div id="webcam-container" className="d-flex justify-content-center"></div>
+                {isModelLoading && <p className="text-muted">Cargando modelo...</p>}
+
+                <div id="webcam-container" className="d-flex justify-content-center mb-3"></div>
 
                 {predictionResult.text && (
-                    <div 
-                        className="mt-3" 
+                    <div
+                        className="mt-3 p-3 rounded shadow"
                         style={{
-                            backgroundColor: predictionResult.color, 
-                            color: predictionResult.textColor, 
-                            padding: '10px', 
-                            borderRadius: '5px',
-                            textAlign: 'center'
+                            backgroundColor: predictionResult.color,
+                            color: predictionResult.textColor,
+                            maxWidth: "400px",
+                            margin: "0 auto"
                         }}
                     >
-                        {predictionResult.text}
+                        <strong>{predictionResult.text}</strong>
                     </div>
                 )}
 
                 {predictionResult.text && (
                     <button
                         onClick={guardarResiduo}
-                        className="btn btn-success mt-3"
+                        className="btn btn-primary mt-3"
                         disabled={isSaving}
                     >
-                        {isSaving ? "Guardando..." : "Capturar Residuo"}
+                        {isSaving ? "Guardando..." : "📦 Capturar Residuo"}
                     </button>
                 )}
 
                 {saveMessage && (
-                    <p 
-                        style={{ 
-                            color: saveMessage.includes("correctamente") ? "green" : "red", 
-                            marginTop: "10px", 
-                            fontWeight: "bold",
+                    <p
+                        className="mt-3 fw-semibold"
+                        style={{
+                            color: saveMessage.includes("correctamente") ? "green" : "red",
                             transition: "opacity 0.5s ease"
                         }}
                     >
@@ -147,8 +156,9 @@ function CameraPage() {
                     </p>
                 )}
 
-                <Link to="/" className="btn btn-secondary mx-2 mt-4">Volver al Inicio</Link>
+                <Link to="/" className="btn btn-secondary mt-4">🏠 Volver al Inicio</Link>
             </div>
+        </div>
         </>
     );
 }
