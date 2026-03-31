@@ -2,10 +2,11 @@ import React, { useState, useEffect } from 'react';
 import * as tmImage from '@teachablemachine/image';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
-import { guardarResiduo } from '../api'; // 💡 Importar la función Axios
+import { guardarResiduo } from '../api'; 
 
 function App() {
-    const URL = "https://teachablemachine.withgoogle.com/models/1ep6Tneuh/";
+    const URL = process.env.REACT_APP_MODEL_URL;
+    
     const [model, setModel] = useState(null);
     const [maxPredictions, setMaxPredictions] = useState(0);
     const [isModelLoading, setIsModelLoading] = useState(true);

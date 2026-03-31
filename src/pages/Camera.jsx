@@ -5,10 +5,13 @@ import { Link } from 'react-router-dom';
 import { guardarResiduo as guardarResiduoAPI } from '../api';
 
 function CameraPage() {
-    const URL = "https://teachablemachine.withgoogle.com/models/1ep6Tneuh/";
+    
+    const URL = process.env.REACT_APP_MODEL_URL;
+    
     const [model, setModel] = useState(null);
     const [maxPredictions, setMaxPredictions] = useState(0);
     const [isModelLoading, setIsModelLoading] = useState(true);
+    
     const [webcam, setWebcam] = useState(null);
     const [predictionResult, setPredictionResult] = useState({ text: "", tipo: "", color: "", textColor: "" });
     const [isSaving, setIsSaving] = useState(false);
